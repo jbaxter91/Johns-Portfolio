@@ -1,0 +1,8 @@
+html, body {
+  height: 10vh;
+}
+
+#root{
+  background:rgba(56, 56, 56, 1);
+  min-height: 100vh;
+}
