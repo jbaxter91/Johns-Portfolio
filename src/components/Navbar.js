@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-// import Avatar from "@material-ui/core/Avatar";
 import Divider from "@material-ui/core/Divider";
 import List from "@material-ui/core/List";
 import Box from "@material-ui/core/Box";
@@ -81,7 +79,6 @@ const Navbar = () => {
         component="div"
         onClick={toggleSlider(slider, false)}
       >
-        {/* <Avatar className={classes.avatar} src={avatar} alt="David Lindner" /> */}
         <Divider />
         <List>
           {menuItems.map((items, key) => (
