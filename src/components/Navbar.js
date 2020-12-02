@@ -86,7 +86,10 @@ const Navbar = () => {
         <List>
           {menuItems.map((items, key) => (
             <ListItem button key={key} component={Link} to={items.listPath}>
-              <ListItemIcon className={classes.listItem} style={{ color: "#919191" }}>
+              <ListItemIcon
+                className={classes.listItem}
+                style={{ color: "#919191" }}
+              >
                 {items.listIcon}
               </ListItemIcon>
               <ListItemText
@@ -110,7 +113,7 @@ const Navbar = () => {
               <MenuIcon style={{ color: "#ef6817" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "#919191" }}>
-              John Baxter
+              Welcome
             </Typography>
             <MobileRightMenuSlider
               anchor="left"

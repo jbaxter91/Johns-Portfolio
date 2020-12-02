@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/styles';
 import {BottomNavigation, BottomNavigationAction} from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 
 const useStyles = makeStyles({
     root: {
@@ -23,25 +22,20 @@ const Footer = () => {
     const classes = useStyles();
 
     return(
-        <BottomNavigation width="auto" style={{background: "#eeeeee"}}>
+        <BottomNavigation width="auto" style={{background: "#000000"}}>
             <BottomNavigationAction
-                href="https://github.com/davidlindnerjr" target="_blank"
+                href="https://github.com/jbaxter91" target="_blank"
                 className={classes.root}
                 style={{padding: 0}}
                 icon={<GitHubIcon/>}
             />
             <BottomNavigationAction
-                href="https://www.linkedin.com/in/david-lindner-9643181aa/" target="_blank"
+                href="https://www.linkedin.com/in/john-baxter91/" target="_blank"
                 className={classes.root}
                 style={{padding: 0}}
                 icon={<LinkedInIcon/>}
             />
-            <BottomNavigationAction
-                href="https://twitter.com/David13870312" target ="_blank"
-                className={classes.root}
-                style={{padding: 0}}
-                icon={<TwitterIcon/>}
-            />
+            
         </BottomNavigation>
     );
 }
