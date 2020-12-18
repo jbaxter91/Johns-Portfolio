@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography, Avatar, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-//import avatar from '';
 
 //Styling
 const useStyles = makeStyles((theme) => ({
