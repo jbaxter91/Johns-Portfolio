@@ -14,11 +14,8 @@ import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
 import MenuIcon from "@material-ui/icons/Menu";
+import { Home, Apps, ContactMail } from "@material-ui/icons";
 
-import { AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons";
-
-//image
-// import avatar from "";
 
 //Style
 const useStyles = makeStyles((theme) => ({
@@ -45,19 +42,9 @@ const menuItems = [
     listPath: "/",
   },
   {
-    listIcon: <AssignmentInd />,
-    listText: "Resume",
-    listPath: "/resume",
-  },
-  {
     listIcon: <Apps />,
     listText: "Portfolio",
     listPath: "/portfolio",
-  },
-  {
-    listIcon: <ContactMail />,
-    listText: "Contacts",
-    listPath: "/contacts",
   },
 ];
 
@@ -96,6 +83,19 @@ const Navbar = () => {
               />
             </ListItem>
           ))}
+          <ListItem button  component="a" href="mailto:jbaxter@a-zdarts.com">
+              <ListItemIcon
+                className={classes.listItem}
+                style={{ color: "#919191" }}
+              >
+                <ContactMail />
+              </ListItemIcon>
+              <ListItemText
+                className={classes.listItem}
+                primary="Cantact Me"
+                style={{ color: "#919191" }}
+              />
+            </ListItem>
         </List>
       </Box>
     );
@@ -106,7 +106,7 @@ const Navbar = () => {
       <Box component="nav">
         <AppBar position="static" style={{ background: "#21201f" }}>
           <Toolbar>
-            <IconButton onClick={toggleSlider("right", true)}>
+            <IconButton onClick={toggleSlider("left", true)}>
               <MenuIcon style={{ color: "#ef6817" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "#919191" }}>
@@ -114,10 +114,10 @@ const Navbar = () => {
             </Typography>
             <MobileRightMenuSlider
               anchor="left"
-              open={state.right}
-              onClose={toggleSlider("right", false)}
+              open={state.left}
+              onClose={toggleSlider("left", false)}
             >
-              {sideList("right")}
+              {sideList("left")}
               <Footer />
             </MobileRightMenuSlider>
           </Toolbar>

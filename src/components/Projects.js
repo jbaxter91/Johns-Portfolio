@@ -75,14 +75,13 @@ const Projects = (props) => {
                 
                 {props.deployed_href ?
                 <Button
-                  size="small"
-                  className={classes.button}
-                  href={props.heroku_href}
-                  target="_blank"
-                >
+                size="small"
+                className={classes.button}
+                href={props.deployed_href}
+                target="_blank"
+              >
                   Deployed Version
-                </Button> : null
-                }
+                </Button> : null }
               </CardActions>
             </Card>
           </Grid>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Avatar, Grid, Box } from "@material-ui/core";
+import { Typography, Avatar, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 //import avatar from '';
 

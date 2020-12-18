@@ -9,6 +9,7 @@ import project2 from "../images/little-fish-go.jpg";
 import project3 from "../images/super-similar.png";
 import project4 from "../images/weather-dashboard.png";
 import project5 from "../images/weedmates.png";
+import project6 from "../images/supportx-2.png";
 
 const Portfolio = () => {
   return (
@@ -27,6 +28,13 @@ const Portfolio = () => {
             talk to eachother"
             github_href="https://github.com/jbaxter91/weedmates"
             deployed_href="https://weedmates.herokuapp.com/"
+          ></Projects>
+          <Projects
+            title="SupportX"
+            image={project6}
+            desc="SupportX is something we need in our ecom business so i built it.  We wanted an advanced ticketing system so the customers on our website would be able to get live support"
+            github_href="https://github.com/ssbrear/supportx"
+            deployed_href="https://jbaxter-supportx.herokuapp.com/"
           ></Projects>
           <Projects
             title="Lil Fish Go"
