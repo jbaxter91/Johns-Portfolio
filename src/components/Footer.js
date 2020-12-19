@@ -26,7 +26,7 @@ const Footer = () => {
             <BottomNavigationAction
                 href="https://github.com/jbaxter91" target="_blank"
                 className={classes.root}
-                style={{padding: 0}}
+                style={{padding: 0}} 
                 icon={<GitHubIcon/>}
             />
             <BottomNavigationAction
