@@ -78,8 +78,7 @@ const Projects = (props) => {
                 size="small"
                 className={classes.button}
                 href={props.deployed_href}
-                target="_blank"
-              >
+                target="_blank">
                   Deployed Version
                 </Button> : null }
               </CardActions>
