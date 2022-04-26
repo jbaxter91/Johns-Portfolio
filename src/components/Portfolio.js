@@ -10,6 +10,8 @@ import project3 from "../images/super-similar.jpg";
 import project4 from "../images/weather-dashboard.jpg";
 import project5 from "../images/weedmates.jpg";
 import project6 from "../images/supportx-2.jpg";
+import project7 from "../images/magic-sms.jpg";
+import project8 from "../images/a-zdarts.jpg";
 
 const Portfolio = () => {
   return (
@@ -17,6 +19,21 @@ const Portfolio = () => {
       <Navbar />
       <Container fixed style={{ marginTop: "2rem" }}>
         <Grid spacing={4} container justify="center">
+        <Projects
+            title="Magic SMS"
+            image={project7}
+            desc="SAAS app designed and developed by Sebastian and myself.  This project uses Twilio to send sms messages to target numbers.  
+            We built a full REST API so the end user can integrate it into their projects.  There is also a dashboard where the user can message select numbers or a list.
+            Each user is generated an API key, and account key.  Both of these must be passed to the server for any sms messages to be sent.  Each account has a per text rate and must add funds before any messages are sent.
+            This product was used in an ecommerce website to send customers their order tracking info"
+            deployed_href="https://www.a-zsms.com/"
+          ></Projects>
+          <Projects
+            title="A-ZDarts.com"
+            image={project8}
+            desc="I worked as one of the developers at A-ZDarts.com.  My primary focus was on maintaining website stability and implimenting new features.  In this role I also picked up a lot about SEO and overall best practices"
+            deployed_href="https://www.a-zdarts.com/"
+          ></Projects>
           <Projects
             title="Weedmates"
             image={project5}
