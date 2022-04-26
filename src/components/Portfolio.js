@@ -4,12 +4,12 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 
 //Project Images
-import project1 from "../images/home-screen.png";
+import project1 from "../images/home-screen.jpg";
 import project2 from "../images/little-fish-go.jpg";
-import project3 from "../images/super-similar.png";
-import project4 from "../images/weather-dashboard.png";
-import project5 from "../images/weedmates.png";
-import project6 from "../images/supportx-2.png";
+import project3 from "../images/super-similar.jpg";
+import project4 from "../images/weather-dashboard.jpg";
+import project5 from "../images/weedmates.jpg";
+import project6 from "../images/supportx-2.jpg";
 
 const Portfolio = () => {
   return (
