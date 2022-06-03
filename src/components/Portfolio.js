@@ -8,7 +8,6 @@ import project1 from "../images/home-screen.jpg";
 import project2 from "../images/little-fish-go.jpg";
 import project3 from "../images/super-similar.jpg";
 import project4 from "../images/weather-dashboard.jpg";
-import project5 from "../images/weedmates.jpg";
 import project6 from "../images/supportx-2.jpg";
 import project7 from "../images/magic-sms.jpg";
 import project8 from "../images/a-zdarts.jpg";
@@ -33,18 +32,6 @@ const Portfolio = () => {
             image={project8}
             desc="I worked as one of the developers at A-ZDarts.com.  My primary focus was on maintaining website stability and implimenting new features.  In this role I also picked up a lot about SEO and overall best practices"
             deployed_href="https://www.a-zdarts.com/"
-          ></Projects>
-          <Projects
-            title="Weedmates"
-            image={project5}
-            desc="A friend and I were sitting around talking about weed and
-            realized that there was nothing that openly tried to connect
-            people so they can smoke together. So we worked together and
-            built one! Think of it like the tinder of weedsmoking. Both
-            users need to like each other in order to be a match and
-            talk to eachother"
-            github_href="https://github.com/jbaxter91/weedmates"
-            deployed_href="https://weedmates.herokuapp.com/"
           ></Projects>
           <Projects
             title="SupportX"
