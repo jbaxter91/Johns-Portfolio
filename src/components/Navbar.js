@@ -46,6 +46,11 @@ const menuItems = [
     listText: "Portfolio",
     listPath: "/portfolio",
   },
+  {
+    listIcon: <Apps />,
+    listText: "Tools",
+    listPath: "/tools",
+  },
 ];
 
 const Navbar = () => {
