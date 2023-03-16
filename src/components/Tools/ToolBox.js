@@ -38,9 +38,7 @@ const ToolBox = (props) => {
         <>
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
-              <CardActionArea>
                 {this.props.children}
-              </CardActionArea>
             </Card>
           </Grid>
         </>
