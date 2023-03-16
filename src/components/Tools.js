@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Grid, Container } from "@material-ui/core";
 import Navbar from "./Navbar";
+import Toolbox from "./Tools/ToolBox";
 
 const Tools = () => {
   return (
@@ -8,7 +9,7 @@ const Tools = () => {
       <Navbar />
       <Container fixed style={{ marginTop: "2rem" }}>
         <Grid spacing={4} container justify="center">
-        Hello
+        <Toolbox>Hello</Toolbox>
         </Grid>
       </Container>
     </Box>
