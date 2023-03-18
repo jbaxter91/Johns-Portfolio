@@ -88,7 +88,7 @@ const Navbar = () => {
               />
             </ListItem>
           ))}
-          <ListItem button  component="a" href="mailto:jbaxter@a-zdarts.com">
+          <ListItem button  component="a" href="mailto:john@johnbax.com">
               <ListItemIcon
                 className={classes.listItem}
                 style={{ color: "#919191" }}
